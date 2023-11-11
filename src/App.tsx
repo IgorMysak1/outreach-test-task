@@ -1,8 +1,10 @@
-export const App = () => {
+import { PageWrapper } from './components'
+import { Main } from './pages'
 
+export const App = () => {
   return (
-   <p>
-       Initial project setup
-   </p>
+    <PageWrapper>
+      <Main />
+    </PageWrapper>
   )
 }

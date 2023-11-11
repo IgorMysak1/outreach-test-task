@@ -1,0 +1,20 @@
+.iconWrapper {
+    height: 36px;
+    width: 36px;
+    padding: 6px;
+    border: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+.active {
+    background: #4BA5CA;
+}
+
+.active svg {
+    opacity: 0.6;
+}

@@ -1,0 +1,10 @@
+.highlightedText {
+    color: #4BA5CA;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 5px;
+}

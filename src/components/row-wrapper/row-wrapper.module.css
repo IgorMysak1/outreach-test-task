@@ -1,0 +1,20 @@
+.rowWrapper {
+    gap: 20px;
+    display: flex;
+}
+
+.timeLabelIconWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text {
+    width: 20px;
+}
+
+.contentWrapper {
+    width: 100%;
+    background: #F6F6F6;
+    padding: 12px;
+}

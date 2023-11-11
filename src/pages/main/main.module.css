@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    width: 70%;
+    margin: 40px auto;
+    border-radius: 10px;
+    position: relative;
+    gap: 20px
+}
+
+.messagesWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.line {
+    position: absolute;
+    top: 16px;
+    left: 78px;
+    z-index: -1;
+    height: 100%;
+    width: 1px;
+    background: grey;
+}
